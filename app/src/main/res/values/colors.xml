@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e8d986</color>
+    <color name="colorPrimaryDark">#c4a35c</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="richfriendgold">#e8d986</color>
+    <color name="colorOfText">#ffffff</color>
+    <color name="darkColorText">#000000</color>
+
+</resources>

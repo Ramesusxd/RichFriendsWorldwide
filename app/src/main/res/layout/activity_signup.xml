@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:padding="15dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:padding="15dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/richfriendpngconnectedr"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_up"
+            android:textColor="@color/colorOfText"
+            android:layout_marginBottom="50dp"
+            android:layout_gravity="center"
+            android:textSize="50sp"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_marginTop="5sp"
+            />
+
+        <EditText
+            android:id="@+id/firstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:inputType="text"
+            android:hint="@string/first_name"
+            android:textColorHint="@color/darkColorText"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:background="#ffffff"
+            android:layout_gravity="center"
+            />
+
+        <EditText
+            android:id="@+id/lastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:inputType="text"
+            android:hint="@string/last_name"
+            android:textColorHint="@color/darkColorText"
+            android:padding="10dp"
+            android:background="#ffffff"
+            android:layout_gravity="center"
+            />
+
+        <EditText
+            android:id="@+id/e_mail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:inputType="text"
+            android:hint="@string/e_mail"
+            android:textColorHint="@color/darkColorText"
+            android:padding="10dp"
+            android:background="#ffffff"
+            android:layout_gravity="center"
+            />
+
+        <EditText
+            android:id="@+id/phoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:inputType="text"
+            android:hint="@string/phone_number"
+            android:textColorHint="@color/darkColorText"
+            android:padding="10dp"
+            android:background="#ffffff"
+            android:layout_gravity="center"
+            />
+
+        <Button
+            android:id="@+id/signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_up"
+            android:onClick="Open"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Terms_condt"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:textColor="@color/colorOfText"/>
+
+    </LinearLayout>
+
+</ScrollView>
