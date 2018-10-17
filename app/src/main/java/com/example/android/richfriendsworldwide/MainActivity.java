@@ -15,7 +15,6 @@ public class MainActivity extends AppCompatActivity {
 
         TextView loginid = (TextView) findViewById(R.id.signinButton);
         loginid.setOnClickListener(new View.OnClickListener() {
-            // The code in this method will be executed when the numbers category is clicked on.
             @Override
             public void onClick(View view) {
 
@@ -27,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
 
         TextView signin = (TextView) findViewById(R.id.loginButton);
         signin.setOnClickListener(new View.OnClickListener() {
-            // The code in this method will be executed when the numbers category is clicked on.
             @Override
             public void onClick(View view) {
 
@@ -39,7 +37,6 @@ public class MainActivity extends AppCompatActivity {
 
         TextView termsC = (TextView) findViewById(R.id.TConditions);
         termsC.setOnClickListener(new View.OnClickListener() {
-            // The code in this method will be executed when the numbers category is clicked on.
             @Override
             public void onClick(View view) {
 

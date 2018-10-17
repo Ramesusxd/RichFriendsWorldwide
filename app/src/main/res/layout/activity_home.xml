@@ -23,8 +23,8 @@
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#000000"
-            android:orientation="vertical"
+            android:background="@drawable/rounded_corner"
+            android:orientation="horizontal"
             android:layout_marginBottom="20dp">
 
 
@@ -34,7 +34,7 @@
                 android:layout_alignParentTop="true"
                 android:layout_gravity="center"
                 android:layout_marginLeft="120dp"
-                android:layout_marginTop="0dp"
+                android:layout_marginTop="10dp"
                 android:text="@string/rich_friend"
                 android:textAlignment="center"
                 android:textColor="@color/colorOfText"
@@ -46,10 +46,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="end"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="20dp"
                 android:contentDescription="@string/rich_friend"
-                android:src="@drawable/staricon"
-                android:layout_marginTop="30dp"
-                />
+                android:src="@drawable/staricon" />
 
 
         </RelativeLayout>
@@ -58,8 +58,8 @@
             android:id="@+id/nightClubs"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#000000"
-            android:orientation="vertical"
+            android:background="@drawable/rounded_corner"
+            android:orientation="horizontal"
             android:layout_gravity="center"
             android:layout_marginBottom="30dp"
             android:layout_marginTop="10dp"
@@ -70,6 +70,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="80dp"
+                android:layout_marginTop="10dp"
                 android:text="@string/night_Clubs"
                 android:textColor="@color/colorOfText"
                 android:layout_gravity="center"
@@ -86,6 +87,7 @@
                 android:contentDescription="@string/rich_friend"
                 android:src="@drawable/clubicon"
                 android:layout_marginTop="40dp"
+                android:layout_marginBottom="20dp"
                 />
 
 
@@ -95,7 +97,7 @@
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#000000"
+            android:background="@drawable/rounded_corner"
             android:orientation="vertical"
             android:layout_marginBottom="20dp"
             >
@@ -104,11 +106,13 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:layout_gravity="end"
                 android:layout_marginLeft="55dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="40dp"
                 android:text="@string/hotel_stay"
                 android:textColor="@color/colorOfText"
-                android:layout_gravity="end"
-                android:textSize="20sp"/>
+                android:textSize="20sp" />
 
 
             <ImageView
@@ -118,7 +122,8 @@
                 android:layout_gravity="end"
                 android:contentDescription="@string/rich_friend"
                 android:src="@drawable/globe"
-                android:layout_marginTop="30dp"/>
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="50dp"/>
 
 
         </RelativeLayout>
@@ -127,7 +132,7 @@
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#000000"
+            android:background="@drawable/rounded_corner"
             android:orientation="vertical">
 
 
@@ -150,7 +155,7 @@
                 android:contentDescription="@string/rich_friend"
                 android:src="@drawable/aboutpoint"
                 android:layout_marginTop="40dp"
-                android:layout_marginBottom="40dp"/>
+                android:layout_marginBottom="20dp"/>
 
 
         </RelativeLayout>

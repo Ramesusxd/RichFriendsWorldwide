@@ -18,7 +18,6 @@ public class HomeActivity extends AppCompatActivity {
 
         ImageView special = (ImageView) findViewById(R.id.dailyDeal);
         special.setOnClickListener(new View.OnClickListener() {
-            // The code in this method will be executed when the numbers category is clicked on.
             @Override
             public void onClick(View view) {
 
@@ -29,7 +28,6 @@ public class HomeActivity extends AppCompatActivity {
 
         ImageView nightc = (ImageView) findViewById(R.id.djicon);
         nightc.setOnClickListener(new View.OnClickListener() {
-            // The code in this method will be executed when the numbers category is clicked on.
             @Override
             public void onClick(View view) {
 
@@ -41,7 +39,6 @@ public class HomeActivity extends AppCompatActivity {
 
         ImageView hotels = (ImageView) findViewById(R.id.hotelicon);
         hotels.setOnClickListener(new View.OnClickListener() {
-            // The code in this method will be executed when the numbers category is clicked on.
             @Override
             public void onClick(View view) {
 
@@ -53,7 +50,6 @@ public class HomeActivity extends AppCompatActivity {
 
         ImageView transpo = (ImageView) findViewById(R.id.transport);
         transpo.setOnClickListener(new View.OnClickListener() {
-            // The code in this method will be executed when the numbers category is clicked on.
             @Override
             public void onClick(View view) {
 

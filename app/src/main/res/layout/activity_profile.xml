@@ -37,7 +37,6 @@
             android:layout_height="match_parent"
             android:layout_marginTop="20dp"
             android:text="LAS VEGAS AREA"
-
             android:textColor="#ffffff"
             android:textSize="30sp" />
 
