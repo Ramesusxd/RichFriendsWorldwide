@@ -6,6 +6,8 @@
     android:orientation="vertical"
     android:padding="16dp">
 
+
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -13,60 +15,106 @@
         android:orientation="vertical">
 
         <ImageView
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/richfriendpngconnectedr"
+            android:layout_gravity="center"
+            />
+
+        <ImageView
             android:id="@+id/profilePic"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
             android:contentDescription="@string/rich_friend"
             android:src="@drawable/yorichfriend" />
+
 
         <TextView
 
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_gravity="center"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/member"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
             android:text="RICH FRIEND"
             android:textColor="#ffffff"
-            android:textSize="30sp" />
+            android:textSize="20sp" />
 
-        <TextView
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corner"
+            android:orientation="vertical">
 
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_marginTop="20dp"
-            android:text="LAS VEGAS AREA"
-            android:textColor="#ffffff"
-            android:textSize="30sp" />
 
-        <TextView
 
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_marginTop="20dp"
-            android:text="Business Owner"
-            android:textColor="#ffffff"
-            android:textSize="30sp" />
+            <TextView
 
-        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="LAS VEGAS AREA"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
 
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_marginTop="20dp"
-            android:text="ML- Filthy RICHFRIEND"
-            android:textColor="#ffffff"
-            android:textSize="30sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Business Owner"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text="702-000-0000"
-            android:textColor="#ffffff"
-            android:textSize="30sp"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="50dp"/>
 
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/rounded_corner"
+            android:orientation="vertical">
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="ML- Filthy RICHFRIEND"
+                android:textColor="#ffffff"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:text="702-000-0000"
+                android:textColor="#ffffff"
+                android:textSize="30sp" />
+
+        </LinearLayout>
 
     </LinearLayout>
 
