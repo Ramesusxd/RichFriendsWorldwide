@@ -27,32 +27,41 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+
             android:layout_marginTop="40dp"
             android:layout_marginBottom="20dp"
             android:contentDescription="@string/rich_friend"
             android:src="@drawable/yorichfriend" />
 
-
-        <TextView
-
+        <RelativeLayout
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:text="@string/member"
-            android:textColor="#ffffff"
-            android:textSize="20sp" />
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
-        <TextView
 
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:text="RICH FRIEND"
-            android:textColor="#ffffff"
-            android:textSize="20sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="27dp"
+                android:layout_marginBottom="40dp"
+                android:text="RICH FRIEND"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/filthy"
+                android:layout_marginLeft="220dp"
+                android:layout_marginBottom="20dp"/>
+
+        </RelativeLayout>
+
+
+
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -67,6 +76,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
                 android:layout_marginLeft="10dp"
                 android:text="LAS VEGAS AREA"
                 android:textColor="#ffffff"
@@ -98,21 +108,21 @@
 
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
                 android:layout_marginTop="20dp"
-                android:text="ML- Filthy RICHFRIEND"
+                android:text="Email - yorichfriend@gmail.com"
                 android:textColor="#ffffff"
-                android:textSize="30sp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
                 android:text="702-000-0000"
                 android:textColor="#ffffff"
-                android:textSize="30sp" />
+                android:textSize="20sp" />
 
         </LinearLayout>
 
