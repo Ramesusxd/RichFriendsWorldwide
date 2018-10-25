@@ -6,5 +6,6 @@
     <color name="richfriendgold">#e8d986</color>
     <color name="colorOfText">#ffffff</color>
     <color name="darkColorText">#000000</color>
+    <color name="goldtype">#fdd835</color>
 
 </resources>

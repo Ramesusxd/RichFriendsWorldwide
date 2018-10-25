@@ -41,61 +41,63 @@
 
             />
 
-        <LinearLayout
-
+        <TextView
+            android:id="@+id/mixerA"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="@string/clubdeal1"
+            android:textColor="@color/colorOfText"
+            android:textSize="20sp"
+
+            />
+
+        <LinearLayout
+            android:layout_width="404dp"
+            android:layout_height="293dp"
             android:layout_gravity="center"
-            android:layout_marginTop="10dp"
             android:layout_marginBottom="50dp"
-            android:background="#ffffff"
             android:orientation="horizontal"
             android:padding="16dp">
 
-            <TextView
-                android:id="@+id/mixerA"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="5dp"
-                android:text="@string/clubdeal1"
-
-                android:textColor="@color/darkColorText"
-                android:textSize="20sp" />
 
             <ImageView
                 android:id="@+id/mixerA1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/richfriendpngmaster" />
+                android:layout_width="383dp"
+                android:layout_height="255dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/partyp" />
 
         </LinearLayout>
 
-        <LinearLayout
+
+
+        <TextView
+            android:id="@+id/mixerB"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+
+            android:layout_marginTop="5dp"
+            android:text="@string/clubdeal2"
+            android:textColor="@color/colorOfText"
+            android:textSize="20sp" />
+
+
+        <LinearLayout
+            android:layout_width="558dp"
+            android:layout_height="331dp"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="50dp"
-            android:background="#ffffff"
+
             android:orientation="horizontal"
             android:padding="16dp">
 
-            <TextView
-                android:id="@+id/mixerB"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="5dp"
-                android:text="@string/clubdeal2"
-                android:textColor="@color/darkColorText"
-                android:textSize="20sp" />
 
             <ImageView
                 android:id="@+id/mixerB1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/richfriendpngmaster" />
+                android:src="@drawable/mixereventt" />
 
         </LinearLayout>
 
